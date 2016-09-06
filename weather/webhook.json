@@ -1,0 +1,13 @@
+{
+    "event": "yahoo-weather",
+    "url": "https://query.yahooapis.com/v1/public/yql",
+    "requestType": "GET",
+    "mydevices": true,
+    "query": {
+        "q": "select * from weather.forecast where woeid=9807 and u=\"c\"",
+        "u": "c",
+        "format": "json"
+    },
+    "responseTemplate": "{{#query}}{{#results}}{{#channel}}{{#item}}{{forecast.0.code}}#{{forecast.0.low}}#{{forecast.0.high}}#{{forecast.1.code}}#{{forecast.1.low}}#{{forecast.1.high}}#{{forecast.1.code}}#{{forecast.1.low}}#{{forecast.1.high}}{{/item}}{{/channel}}{{/results}}{{/query}}",
+    "noDefaults": true
+}
