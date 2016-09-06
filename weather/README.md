@@ -1,4 +1,4 @@
-Once the 2nd button is pressed, the LEDs will get lighten up in rainbow mode while it is looking to get the weather from the server.
+Once the 2nd button is pressed, the LEDs will get lit up in rainbow mode while it is looking to get the weather from the server.
 Later, when the response is received, the weather will be displayed on 3 separate sections of 3 LEDs each: the first section is for today, the second for tomorrow and the last one for the day after tomorrow.
 
 For each of the section, 3 lights are used: the first one is for the weather (more below), the second for the low temperature of the day and the last one for the high temperature.
