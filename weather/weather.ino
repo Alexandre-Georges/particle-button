@@ -139,9 +139,9 @@ void getForecastColour(int * colour, int code) {
         colour[1] = 128;
         colour[2] = 0;
     } else if (doesArrayContainsValue(MOSTLY_CLOUDY_CODES, sizeof(MOSTLY_CLOUDY_CODES) / sizeof(int), code)) {
-        colour[0] = 50;
-        colour[1] = 205;
-        colour[2] = 50;
+        colour[0] = 0;
+        colour[1] = 180;
+        colour[2] = 0;
     } else if (doesArrayContainsValue(PARTLY_CLOUDY_CODES, sizeof(PARTLY_CLOUDY_CODES) / sizeof(int), code)) {
         colour[0] = 0;
         colour[1] = 255;
