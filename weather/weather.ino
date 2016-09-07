@@ -5,6 +5,7 @@ InternetButton b = InternetButton();
 
 const char DATA_DELIMITER = '#';
 const int LED_BRIGHTNESS = 125;
+const int MAX_COLOUR_RGB = 255;
 
 const int COLD_CODES [] = { 25 };
 const int RAIN_CODES [] = { 1, 5, 6, 7, 8, 9, 10, 11, 12, 35, 37, 38, 39, 40, 45, 47 };
